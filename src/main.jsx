@@ -6,8 +6,8 @@ import { ThemeContextProvider } from './components/contextApi/useContextApi.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    < ThemeContextProvider>
-      <App />
+    <ThemeContextProvider>
+        <App />
     </ThemeContextProvider>
   </StrictMode>,
 )
