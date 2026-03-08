@@ -6,6 +6,7 @@ import JsxRenderer from "./JsxRenderer";
 import UnOptimizedList from "./components/optimizations/list/UnOptimizedList";
 import OptimizedList from "./components/optimizations/list/OptimizedList";
 import ModalUse from "./components/modal/ModalUse";
+import SelfModalUse from "./components/modal/self-modal/SelfModalUse";
 
 
 const App = React.memo(function App() {
@@ -23,7 +24,8 @@ const App = React.memo(function App() {
       <JsxRenderer />
       <UnOptimizedList /> */}
       {/* <OptimizedList /> */}
-      <ModalUse />
+      {/* <ModalUse /> */}
+      <SelfModalUse />
     </>
   );
 });
