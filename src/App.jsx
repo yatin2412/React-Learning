@@ -7,6 +7,9 @@ import UnOptimizedList from "./components/optimizations/list/UnOptimizedList";
 import OptimizedList from "./components/optimizations/list/OptimizedList";
 import ModalUse from "./components/modal/ModalUse";
 import SelfModalUse from "./components/modal/self-modal/SelfModalUse";
+import Pagination from "./components/pagination/pagination";
+import SelfPagination from "./components/pagination/selfPagination/selfPagination";
+import TaskManager from "./components/taskManager/TaskManager.tsx"
 
 
 const App = React.memo(function App() {
@@ -20,12 +23,15 @@ const App = React.memo(function App() {
 
   return (
     <>
-      {/* <Form />
-      <JsxRenderer />
-      <UnOptimizedList /> */}
+      {/* <Form /> */}
+      {/* <JsxRenderer /> */}
+      {/* <UnOptimizedList /> */}
       {/* <OptimizedList /> */}
       {/* <ModalUse /> */}
-      <SelfModalUse />
+      {/* <SelfModalUse /> */}
+      {/* <Pagination /> */}
+      {/* <SelfPagination /> */}
+      <TaskManager />
     </>
   );
 });
