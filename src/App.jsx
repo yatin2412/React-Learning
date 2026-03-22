@@ -13,6 +13,7 @@ import TaskManager from "./components/taskManager/TaskManager.tsx"
 import Accordion from "./components/accordian/Accordian.tsx"
 import MultipleAccordian from "./components/accordian/MultipleAccordian.tsx"
 import TabsComponent from "./components/tabs/Tabs.tsx"
+import Useprogress from "./components/ProgressBar/Useprogress.tsx"
 
 const App = React.memo(function App() {
   const [count, setCount] = useState(0);
@@ -36,7 +37,8 @@ const App = React.memo(function App() {
       {/* <TaskManager /> */}
       {/* <Accordion /> */}
       {/* <MultipleAccordian /> */}
-      <TabsComponent />
+      {/* <TabsComponent /> */}
+      <Useprogress />
     </>
   );
 });
