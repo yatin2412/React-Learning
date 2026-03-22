@@ -10,7 +10,9 @@ import SelfModalUse from "./components/modal/self-modal/SelfModalUse";
 import Pagination from "./components/pagination/pagination";
 import SelfPagination from "./components/pagination/selfPagination/selfPagination";
 import TaskManager from "./components/taskManager/TaskManager.tsx"
-
+import Accordion from "./components/accordian/Accordian.tsx"
+import MultipleAccordian from "./components/accordian/MultipleAccordian.tsx"
+import TabsComponent from "./components/tabs/Tabs.tsx"
 
 const App = React.memo(function App() {
   const [count, setCount] = useState(0);
@@ -31,7 +33,10 @@ const App = React.memo(function App() {
       {/* <SelfModalUse /> */}
       {/* <Pagination /> */}
       {/* <SelfPagination /> */}
-      <TaskManager />
+      {/* <TaskManager /> */}
+      {/* <Accordion /> */}
+      {/* <MultipleAccordian /> */}
+      <TabsComponent />
     </>
   );
 });
